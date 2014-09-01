@@ -78,6 +78,8 @@ set scrolloff=3
 set sidescrolloff=7
 set sidescroll=1
 
+set cursorline
+
 "load ftplugins and indent files
 filetype plugin on
 filetype indent on
@@ -97,7 +99,8 @@ set hidden
 
 set nobackup " no *~ backup files
 "colors koehler
-colors kolor
+"colors kolor
+colors morning
 
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
