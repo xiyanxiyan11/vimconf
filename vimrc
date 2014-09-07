@@ -18,7 +18,7 @@ Bundle 'bufexplorer.zip'
 Bundle 'OmniCppComplete'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'syntastic'
-Bundle 'ListToggle'
+Bundle 'Valloric/ListToggle'
 
 
 "allow backspacing over everything in insert mode
