@@ -18,7 +18,7 @@ Bundle 'bufexplorer.zip'
 Bundle 'OmniCppComplete'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'syntastic'
-Bundle 'Valloric/ListToggle'
+Bundle 'ListToggle'
 
 
 "allow backspacing over everything in insert mode
@@ -97,10 +97,10 @@ set t_Co=256
 "hide buffers when not displayed
 set hidden
 
-set nobackup " no *~ backup files
+"set nobackup " no *~ backup files
 "colors koehler
-"colors kolor
-colors morning
+colors kolor
+"colors morning
 
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
