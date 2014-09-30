@@ -2,7 +2,10 @@
 
 
 #WHAT IS IT?
-My configure for VIM
+我的VIM配置
 
+
+#LICENSE
+GPL
 
 
