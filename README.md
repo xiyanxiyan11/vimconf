@@ -1,11 +1,11 @@
-#VIM CONFIGURE
+# VIM CONFIGURE
 
 
-#WHAT IS IT?
-我的VIM配置
+# WHAT IS IT?
+My conf file for vim, support YouCompleteMe
 
 
-#LICENSE
+# LICENSE
 GPL
 
 
