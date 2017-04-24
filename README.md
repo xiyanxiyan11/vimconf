@@ -15,10 +15,10 @@
 
 ## Install
     
-    ```
+```
         cp -r vim ~/.vim
         cp vimrc ~/.vimrc
-    ```
+```
 
 ## File
  - vimrc                vim base configure file
