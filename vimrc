@@ -10,16 +10,14 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/syntastic'
 Bundle 'majutsushi/tagbar'
 Bundle 'SirVer/ultisnips'
 Bundle 'mileszs/ack.vim'
 Bundle 'vimwiki'
 Bundle 'bufexplorer.zip'
 Bundle 'OmniCppComplete'
-Bundle 'Valloric/YouCompleteMe'
-Bundle 'syntastic'
-Bundle 'ListToggle'
-
+Bundle 'fatih/vim-go'
 
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
@@ -78,8 +76,6 @@ set scrolloff=3
 set sidescrolloff=7
 set sidescroll=1
 
-set cursorline
-
 "load ftplugins and indent files
 filetype plugin on
 filetype indent on
@@ -97,10 +93,9 @@ set t_Co=256
 "hide buffers when not displayed
 set hidden
 
-"set nobackup " no *~ backup files
+set nobackup " no *~ backup files
 "colors koehler
 colors kolor
-"colors morning
 
 "--------------------------------------------------------------------------- 
 " ENCODING SETTINGS
@@ -382,17 +377,17 @@ imap <C-a> <esc>0i
 set completeopt=menu
 
 let g:UltiSnipsSnippetDirectories=["snippets"]
+
 let g:C_Ctrl_j   = 'off'
-"syntasic
-"let g:syntastic_check_on_open = 1
-"set error or warning signs
-"whether to show balloons
-"let g:syntastic_enable_balloons = 1
-"ycm
-let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'
+
+let g:syntastic_c_checkers=['make', 'gcc']
+" UltiSnips default to TAB, conflict with YCM, use C-j instead
+let g:UltiSnipsExpandTrigger="<c-j>"
+
+" youcompleteme is still crappy for C++ if no ycm_extra_conf.py is used
 let g:ycm_collect_identifiers_from_tags_files = 1
-let g:ycm_seed_identifiers_with_syntax = 1
 let g:ycm_confirm_extra_conf = 0
+
 "VimOrganizer
 autocmd! BufRead,BufWrite,BufWritePost,BufNewFile *.org
 autocmd  BufEnter *.org call org#SetOrgFileType() | set wrap
