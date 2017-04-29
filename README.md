@@ -16,13 +16,12 @@
 ## Install
     
 ```
-        cp -r vim ~/.vim
-        cp vimrc ~/.vimrc
+    cp -r vim ~/.vim
+    cp vimrc ~/.vimrc
 ```
 
 ## File
  - vimrc                vim base configure file
- - ycm_extra_conf.py    Youcomleteme plugin configure
 
 ## Notie
 
