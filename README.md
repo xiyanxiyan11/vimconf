@@ -21,7 +21,6 @@
 
 ## File
  - vimrc                vim base configure file
- - ycm_extra_conf.py    Youcomleteme plugin configure
 
 ## Notie
 
