@@ -19,6 +19,32 @@ Bundle 'bufexplorer.zip'
 Bundle 'OmniCppComplete'
 Bundle 'fatih/vim-go'
 
+"Bundle 'fholgado/minibufexpl.vim'
+"Bundle 'Shutnik/jshint2.vim'
+Bundle 'leshill/vim-json'
+Bundle 'kchmck/vim-coffee-script'
+"Bundle 'mislav/vimfiles'
+"Bundle 'leafgarland/typescript-vim'
+Bundle 'tpope/vim-markdown'
+"Bundle 'tpope/vim-surround'
+"Bundle 'tpope/vim-fugitive'
+"Bundle 'marijnh/tern_for_vim'
+"Bundle 'Xuyuanp/nerdtree-git-plugin'
+
+" vim actions
+Bundle 'easymotion/vim-easymotion'
+"
+" React
+Bundle 'pangloss/vim-javascript'
+Bundle 'mxw/vim-jsx'
+
+" Es6
+Bundle 'tomtom/tlib_vim'
+Bundle 'MarcWeber/vim-addon-mw-utils'
+"Bundle 'garbas/vim-snipmate'
+Bundle 'isRuslan/vim-es6'
+Bundle 'pydoc.vim'
+
 "allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 
