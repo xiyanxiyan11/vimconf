@@ -15,10 +15,9 @@
 
 ## Install
     
-```
-        cp -r vim ~/.vim
-        cp vimrc ~/.vimrc
-```
+ - Install Bundle
+ - Use vimrc as configure
+ - Run BundleInstall
 
 ## File
  - vimrc                vim base configure file
