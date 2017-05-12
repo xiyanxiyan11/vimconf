@@ -14,17 +14,23 @@
 
 
 ## Install
-    
- - Install Bundle
- - Use vimrc as configure
- - Run BundleInstall
 
-## File
- - vimrc                vim base configure file
+```   
+ cp -r vim  ~/.vim
+```
+
+```
+ cp vim/vimrc ~/.vimrc
+```
+
+
+```
+    vim ./
+```
 
 ## Notie
 
-# Author 
+# Master 
     - name: hongwei mei
     - email:xiyanxiyan10@hotmail.com
     - weixin: xiyanxiyan10
