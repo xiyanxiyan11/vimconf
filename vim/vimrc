@@ -23,7 +23,11 @@ Bundle 'pydoc.vim'
 Bundle 'lepture/vim-css'
 Bundle 'pangloss/vim-javascript'
 Bundle 'mattn/emmet-vim'
-
+Bundle 'vim-scripts/indentpython.vim'
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'rkulla/pydiction'
+Bundle 'nvie/vim-flake8'
+Bundle 'vim-scripts/pylint.vim'
 
 "Bundle 'fholgado/minibufexpl.vim'
 "Bundle 'Shutnik/jshint2.vim'
@@ -419,6 +423,10 @@ let g:UltiSnipsExpandTrigger="<c-j>"
 " youcompleteme is still crappy for C++ if no ycm_extra_conf.py is used
 let g:ycm_collect_identifiers_from_tags_files = 1
 let g:ycm_confirm_extra_conf = 0
+
+let g:ycm_global_ycm_extra_conf='~/ycm_extra_conf.py'
+
+let g:pydiction_location='~/.vim/bundle/pydiction'
 
 "VimOrganizer
 autocmd! BufRead,BufWrite,BufWritePost,BufNewFile *.org
