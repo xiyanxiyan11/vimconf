@@ -6,8 +6,11 @@
 
 # Feature
  - c/c++ support
- - go support
- - cscope tags support
+ - golang support
+ - cscope support 
+ - ctags support
+ - python support
+ - YoucompeteMe SUPPORT
 
 ## DEPEND
  - ack-grep
@@ -16,17 +19,14 @@
 ## Install
 
 ```   
+
  cp -r vim  ~/.vim
-```
-
-```
  cp vim/vimrc ~/.vimrc
+ vim ~/.vimrc
+ :BundleInstall
+
 ```
 
-
-```
-    vim ./
-```
 
 ## Notie
 
